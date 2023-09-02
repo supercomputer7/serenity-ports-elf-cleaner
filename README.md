@@ -1,5 +1,5 @@
-# android-elf-cleaner
-Android ELF cleaner
+# serenity-ports-elf-cleaner
+Serenity Ports ELF cleaner
 
 Small utility to remove offending ELF entries:
   - DT_VERNEEDED, 
@@ -7,6 +7,9 @@ Small utility to remove offending ELF entries:
   - DT_RPATH
   - DT_RUNPATH
   - DT_VERSYM
+
+While the original intention was to be used on Android ELF files, this can be
+used on Linux and other Unix-like OSes (like SerenityOS).
 
 ## Usage
 
