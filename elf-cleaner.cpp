@@ -90,8 +90,8 @@ int main(int argc, char const** argv)
 	PRGNAME=(char *)argv[0];
 	if (argc < 2 || (argc == 2 && strcmp(argv[1], "-h")==0)) {
 		fprintf(stderr, "usage: %s <filename>\n", PRGNAME);
-		fprintf(stderr, "       Processes ELF files to remove DT_VERNEEDED, DT_VERNEEDNUM, DT_RPATH\n"
-				"       and DT_RUNPATH entries (which the Android linker warns about)\n");
+		fprintf(stderr, "       Processes ELF files to remove DT_VERNEEDED, DT_VERNEEDNUM, DT_RPATH, DT_VERSYM\n"
+				"       and DT_RUNPATH entries\n");
 		return 1;
 	}
 
