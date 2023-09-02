@@ -1,8 +1,8 @@
 CXX?=g++
 #CFLAGS?=
 #LDFLAGS?=
-SOURCES=android-elf-cleaner.cpp
-PRGNAME=android-elf-cleaner
+SOURCES=elf-cleaner.cpp
+PRGNAME=elf-cleaner
 
 all: $(PRGNAME)
 
